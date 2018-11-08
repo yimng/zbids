@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caicui.app.mapper.UserThirdMapper">
+  <resultMap id="BaseResultMap" type="com.caicui.app.entity.UserThird">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_third_id" jdbcType="VARCHAR" property="userThirdId" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="third_type" jdbcType="INTEGER" property="thirdType" />
+    <result column="third_name" jdbcType="VARCHAR" property="thirdName" />
+    <result column="third_userid" jdbcType="VARCHAR" property="thirdUserid" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="create_uid" jdbcType="VARCHAR" property="createUid" />
+  </resultMap>
+</mapper>

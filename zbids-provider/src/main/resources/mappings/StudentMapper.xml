@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caicui.app.mapper.StudentMapper">
+  <resultMap id="BaseResultMap" type="com.caicui.app.entity.Student">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="student_id" jdbcType="VARCHAR" property="studentId" />
+    <result column="student_no" jdbcType="VARCHAR" property="studentNo" />
+    <result column="qq" jdbcType="VARCHAR" property="qq" />
+    <result column="weixin" jdbcType="VARCHAR" property="weixin" />
+    <result column="weibo" jdbcType="VARCHAR" property="weibo" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="emergency_contact_name" jdbcType="VARCHAR" property="emergencyContactName" />
+    <result column="emergency_contact_phone" jdbcType="VARCHAR" property="emergencyContactPhone" />
+    <result column="emergency_contact_type" jdbcType="INTEGER" property="emergencyContactType" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="other_mark" jdbcType="VARCHAR" property="otherMark" />
+    <result column="reg_source" jdbcType="INTEGER" property="regSource" />
+    <result column="sub_reg_source" jdbcType="INTEGER" property="subRegSource" />
+    <result column="reg_active_type" jdbcType="INTEGER" property="regActiveType" />
+    <result column="reg_active_id" jdbcType="VARCHAR" property="regActiveId" />
+    <result column="nation_id" jdbcType="VARCHAR" property="nationId" />
+    <result column="education_id" jdbcType="VARCHAR" property="educationId" />
+    <result column="is_study" jdbcType="INTEGER" property="isStudy" />
+    <result column="study_university_id" jdbcType="VARCHAR" property="studyUniversityId" />
+    <result column="study_university_enter_year" jdbcType="INTEGER" property="studyUniversityEnterYear" />
+    <result column="study_campus_id" jdbcType="VARCHAR" property="studyCampusId" />
+    <result column="study_department" jdbcType="VARCHAR" property="studyDepartment" />
+    <result column="study_specialty" jdbcType="VARCHAR" property="studySpecialty" />
+    <result column="study_grade" jdbcType="VARCHAR" property="studyGrade" />
+    <result column="graduate_university_id" jdbcType="VARCHAR" property="graduateUniversityId" />
+    <result column="university_graduate_year" jdbcType="INTEGER" property="universityGraduateYear" />
+    <result column="high_school" jdbcType="VARCHAR" property="highSchool" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="modify_date" jdbcType="TIMESTAMP" property="modifyDate" />
+    <result column="work_company" jdbcType="VARCHAR" property="workCompany" />
+    <result column="work_date" jdbcType="TIMESTAMP" property="workDate" />
+    <result column="work_job" jdbcType="VARCHAR" property="workJob" />
+    <result column="teach_center_id" jdbcType="VARCHAR" property="teachCenterId" />
+    <result column="branch_id" jdbcType="VARCHAR" property="branchId" />
+    <result column="reg_region_id" jdbcType="VARCHAR" property="regRegionId" />
+    <result column="callcenter_user_id" jdbcType="VARCHAR" property="callcenterUserId" />
+    <result column="callcenter_date" jdbcType="TIMESTAMP" property="callcenterDate" />
+    <result column="benefit_market_org_id" jdbcType="VARCHAR" property="benefitMarketOrgId" />
+    <result column="benefit_market_user_id" jdbcType="VARCHAR" property="benefitMarketUserId" />
+    <result column="benefit_pconsult_org_id" jdbcType="VARCHAR" property="benefitPconsultOrgId" />
+    <result column="benefit_pconsult_user_id" jdbcType="VARCHAR" property="benefitPconsultUserId" />
+    <result column="benefit_fconsult_org_id" jdbcType="VARCHAR" property="benefitFconsultOrgId" />
+    <result column="benefit_fconsult_user_id" jdbcType="VARCHAR" property="benefitFconsultUserId" />
+    <result column="grade" jdbcType="INTEGER" property="grade" />
+    <result column="is_account_locked" jdbcType="INTEGER" property="isAccountLocked" />
+    <result column="benefit_market_date" jdbcType="TIMESTAMP" property="benefitMarketDate" />
+    <result column="benefit_pconsult_date" jdbcType="TIMESTAMP" property="benefitPconsultDate" />
+    <result column="benefit_fconsult_date" jdbcType="TIMESTAMP" property="benefitFconsultDate" />
+    <result column="high_school_area_id" jdbcType="VARCHAR" property="highSchoolAreaId" />
+    <result column="high_school_graduate_year" jdbcType="INTEGER" property="highSchoolGraduateYear" />
+    <result column="market_begin_date" jdbcType="TIMESTAMP" property="marketBeginDate" />
+    <result column="is_public" jdbcType="INTEGER" property="isPublic" />
+    <result column="is_callcenter" jdbcType="INTEGER" property="isCallcenter" />
+    <result column="source_branch_id" jdbcType="VARCHAR" property="sourceBranchId" />
+  </resultMap>
+</mapper>
